@@ -1,6 +1,9 @@
 # sim-gwinp
 R code to reproduce simulation study of global win probability for cluster randomized trials with multiple endpoints of ordinal or different types
 
+Corresponding Pre-print: 
+[Davies Smith, E., Jairath, V., & Zou, G. (2024). Rank-based estimators of global treatment effects for cluster randomized trials with multiple endpoints. arXiv preprint arXiv:2401.12420.](https://arxiv.org/abs/2401.12420)
+
 Steps for running the simulation study are as follows:
 1. scenarios.R - Input parameter values of interest and generate all scenarios for data generation/investigation. Save to scenarios.csv. 
 2. main.R - Load simulation scripts and other dependencies (stored in dependencies.R), import scenarios.csv, and simulate all scenarios using simScenarios() function.
