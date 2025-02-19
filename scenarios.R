@@ -1,6 +1,9 @@
 #' Author: Emma Davies Smith, esmith at hsph.harvard.edu
 #' Date: 23 OCT 2024
 
+# run dependencies.R first or load following library to run
+# library(tidyverse) 
+
 # Parameters -------------------------------------------------------------------
 
 # Proportion of clusters allocated to treatment arm
