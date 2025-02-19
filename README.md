@@ -5,8 +5,9 @@ Corresponding Pre-print (will update with pub once available):
 [Davies Smith, E., Jairath, V., & Zou, G. (2024). Rank-based estimators of global treatment effects for cluster randomized trials with multiple endpoints. arXiv preprint arXiv:2401.12420.](https://arxiv.org/abs/2401.12420)
 
 Steps for running the simulation study are as follows:
-1. scenarios.R - Input parameter values of interest and generate all scenarios for data generation/investigation. Save to scenarios.csv. 
-2. main.R - Load simulation scripts and other dependencies (stored in dependencies.R), import scenarios.csv, and simulate all scenarios using simScenarios() function.
+1. dependencies.R - Load simulation scripts and other dependencies.
+2. scenarios.R - Input parameter values of interest and generate all scenarios for data generation/investigation. Save to scenarios.csv. 
+3. main.R - Import scenarios.csv and simulate all scenarios using simScenarios() function.
 
 Scripts within src/
 1. help.R - Helper functions (e.g., logit, correlation matrix construction, identification of parameter values for given win probability).
