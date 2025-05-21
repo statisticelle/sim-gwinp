@@ -1,8 +1,8 @@
 # sim-gwinp
 R code to reproduce simulation study of global win probability for cluster randomized trials with multiple endpoints of different scales
 
-Corresponding Pre-print (will update with pub once available): 
-[Davies Smith, E., Jairath, V., & Zou, G. (2024). Rank-based estimators of global treatment effects for cluster randomized trials with multiple endpoints. arXiv preprint arXiv:2401.12420.](https://arxiv.org/abs/2401.12420)
+Corresponding Paper: 
+[Davies Smith E, Jairath V, Zou G. Rank-based estimators of global treatment effects for cluster randomized trials with multiple endpoints on different scales. Statistical Methods in Medical Research. 2025;0(0).](https://journals.sagepub.com/doi/abs/10.1177/09622802251338387)
 
 Steps for running the simulation study are as follows:
 1. dependencies.R - Load simulation scripts and other dependencies.
